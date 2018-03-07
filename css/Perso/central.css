@@ -1,0 +1,12 @@
+#centralvisiteur{
+	background-color: #0066CC;/*Bleu fb*/
+	border: 2px solid black;
+	border-radius: 6px;
+	line-height: 20px;
+	/*text-align: center;*/
+	color: white;
+
+}
+#central_ajouter_personne{
+	color: black;
+}

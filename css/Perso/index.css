@@ -1,0 +1,67 @@
+html, body{
+	width: 100%;
+}
+
+.wrap{
+	min-height: 100%;
+	min-width:100%;
+}
+.container{
+	min-width: 100%;
+}
+header .col-md-12{
+	background-color: #0066CC;/*Bleu fb*/
+
+	border: 2px solid black;
+
+	text-align: center;
+
+	margin-top: 20px;
+
+	height: 70px;
+}
+
+header h1{
+	color: white;
+}
+
+#titre{
+	cursor: pointer;
+}
+
+#ligne_principale {
+	margin-top: 50px;
+}
+
+#Bouton{
+	margin-top: 50px;
+	border-radius: 25%;
+	border : 5px solid #0066CC;/*Bleu fb*/
+	height: 50px;
+	color: white;
+	background-color: #0066CC;
+	box-shadow: 3px 3px 0px 0px grey;
+	text-align: center;
+}
+#Bouton:hover{
+	background-color: white;
+	color: #0066CC;
+}
+#accordion{
+	height: 400px;
+	margin: 0;
+}
+.menuItems{
+	margin-left: -50px;
+}
+#individu_menu{
+	margin-left: 20px;
+	height: 40px;
+}
+#lien_menu{
+	margin-left: 20px;
+	height: 30px;
+}
+#Effacer_menu{
+	margin-left: 5px;
+}

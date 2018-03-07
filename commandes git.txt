@@ -1,0 +1,29 @@
+Commandes git:
+
+git init			//Se placer dans le dossier dont on veut qu'il soit Repository Git.
+
+git add nomduficher.extension
+git commit -m "commentaire"
+git commit -a -m "commentaire"
+git log
+git checkout SHADuCommit
+git checkout master
+git revert SHADuCommit
+git reset --hard?  (annuler tous les changements que je n'ai pas encore commités)
+
+git clone lienFourniParGitHub
+git push origin master
+
+git branch ma-branche		//Créer une branche
+git checkout brancheA		//Se placer dans la brancheA
+git checkout -b ma-branche	//Combine les 2 précédentes
+git branch -d ma-branche	//Supprimer une branche
+git branch			//Savoir dans quelle branche on se trouve.
+git merge brancheB		//Merger la branche dans laquelle on se trouve avec le contenu de la branche B
+git mergetool vimdiff 
+
+git blame nomdufichier.extension
+git show 05b1233		//Début du sha du log recherché
+
+git stash			//Pour sauvegardé sans commité les modif dans une branche.
+git stash pop			//On peut revenir dans notre branche, finir le travail et commiter.
